@@ -1,0 +1,138 @@
+html, body {
+  margin: 0;
+}
+
+td:hover {background-color: #ddd;}
+
+div.search, div.filter, div.main, div.nav {
+  max-width: 30%;
+  margin: auto;
+}
+
+div.row, footer p {
+  max-width: 50%;
+  margin: auto;
+}
+
+div.row a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+  
+}
+
+div.filter {
+  margin-left: 0px;
+}
+
+div.filter input[type=text] {
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+div.row a:hover {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+div.search div {
+  margin: auto;
+}
+
+div.nav ul li {
+  display: inline;
+  float: left;
+}
+
+div.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+  
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+  
+li a:hover:not(.active) {
+  background-color: #111;
+}
+  
+.active {
+  background-color: #04AA6D;
+}
+
+#active {
+  background-color: #4CAF50;
+}
+
+select, input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+table.table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table td, .table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table tr:hover {
+  background-color: #ddd;
+}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
